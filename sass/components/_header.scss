@@ -49,4 +49,14 @@
       padding: opx;
     }
   }
+  @media (max-width: $mobile-size) {
+    &_list {
+      display: none;
+    }
+  }
+  @media (max-width: $mobile-size) {
+    &__contact {
+      display: none;
+    }
+  }
 }
