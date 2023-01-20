@@ -22,6 +22,11 @@
   border-radius: 4px;
   padding: 40px;
 }
+@media (max-width: 480px) {
+  .modal {
+    width: 450px;
+  }
+}
 .close-btn {
   position: absolute;
   top: 8px;
