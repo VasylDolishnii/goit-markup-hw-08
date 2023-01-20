@@ -26,6 +26,7 @@
   &-btn {
     text-align: left;
     padding: 10px 76px 10px 42px;
+    margin-top: 0;
   }
 
   &_svg {
@@ -34,6 +35,16 @@
     bottom: 13px;
     right: 28px;
     cursor: pointer;
+  }
+  @media (max-width: $tablet-size) {
+    &-btn {
+      margin-top: 20px;
+    }
+  }
+  @media (max-width: $tablet-size) {
+    &_svg {
+      right: 113px;
+    }
   }
   @media (max-width: $tablet-size) {
     &__part {
