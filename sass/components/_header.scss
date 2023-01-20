@@ -2,6 +2,7 @@
   padding: 25px 0;
   align-items: center;
   border-bottom: 1px solid var(--header_border);
+  width: 100%;
 
   &__helper {
     display: flex;
@@ -41,5 +42,11 @@
     display: flex;
     gap: 50px;
     margin-left: 93px;
+  }
+  @media (max-width: $tablet-size) {
+    &__contact {
+      flex-direction: column;
+      padding: opx;
+    }
   }
 }

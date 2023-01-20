@@ -4,6 +4,13 @@ body {
   color: var(--letters_and_logo_color_black);
   font-size: 14px;
   letter-spacing: 0.03em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  // max-width: 1170px;
+  width: 100%;
 }
 *,
 *::before,

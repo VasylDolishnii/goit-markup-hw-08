@@ -3,6 +3,9 @@
   background-color: var(--icons_white);
   &__ul {
     display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
     gap: 30px;
   }
   &__title {
@@ -33,5 +36,11 @@
     font-size: 16px;
     color: var(--links_and_subtitle_white-grey);
     letter-spacing: 0.03em;
+  }
+  @media (max-width: $mobile-size) {
+    &__ul {
+      display: flex;
+      gap: 30px;
+    }
   }
 }

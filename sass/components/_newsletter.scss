@@ -35,4 +35,9 @@
     right: 28px;
     cursor: pointer;
   }
+  @media (max-width: $tablet-size) {
+    &__part {
+      flex-direction: column;
+    }
+  }
 }
