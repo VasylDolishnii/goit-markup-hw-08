@@ -21,3 +21,10 @@
   margin: 0 auto;
   margin-bottom: 30px;
 }
+@media (max-width: $tablet-size) {
+  .title-section__title {
+    width: 100%;
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
