@@ -24,7 +24,7 @@
 }
 @media (max-width: 480px) {
   .modal {
-    width: 450px;
+    width: calc(100% - 30px);
   }
 }
 .close-btn {
