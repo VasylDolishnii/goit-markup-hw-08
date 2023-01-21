@@ -24,7 +24,7 @@
       url(../images/bg-image/tablet@2.jpg);
   }
 
-  @media (min-width: $detskop-size) {
+  @media (min-width: $desktop-size) {
     background-image: url(../images/bg-image/detskop.jpg);
     height: 37.5rem;
   }
