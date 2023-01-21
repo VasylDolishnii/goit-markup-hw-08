@@ -43,12 +43,13 @@
   }
   @media (max-width: $tablet-size) {
     &_svg {
-      right: 108px;
+      right: 31px;
     }
   }
   @media (max-width: $tablet-size) {
     &__input {
       margin-right: 0;
+      width: 100%;
     }
   }
   @media (max-width: $tablet-size) {

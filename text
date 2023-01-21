@@ -1,0 +1,33 @@
+<picture>
+  <source
+    srcset="./image/index/desktop-img-1.jpg 1x, ./image/index/desktop-img-1@2x.jpg 2x"
+    media="(min-width: 1200px)"
+  />
+
+  <source
+    srcset="./image/index/tablet-img-1.jpg 1x, ./image/index/tablet-img-1@2x.jpg 2x"
+    media="(min-width: 768px)"
+  />
+
+  <source
+    srcset="./image/index/mobile-img-1.jpg 1x, ./image/index/mobile-img-1@2x.jpg 2x"
+    media="(min-width: 480px)"
+  />
+
+  <img src="./image/index/mobile-img-1.jpg" class="team-img" alt="Игорь Демьяненко" />
+</picture>
+
+<!-- <img
+                srcset="
+                  ./images/team/team_mb@1x.jpg 450w,
+                  ./images/team/team_mb@2x.jpg 900w,
+                  ./images/team/team_tb@1x.jpg 354w,
+                  ./images/team/team_tb@2x.jpg 708w,
+                  ./images/team/team_dt@1x.jpg 270w,
+                  ./images/team/team_dt@2x.jpg 540w
+                "
+                src="./images/team/team_mb@1x.jpg"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                min-width="270"
+                alt="фото І.Дем'яненеко"
+              />  -->

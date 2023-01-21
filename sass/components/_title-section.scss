@@ -4,12 +4,40 @@
   padding: 200px 0;
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/Header.jpg');
+    url(../images/bg-image/mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   margin: 0 auto;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/bg-image/mobile@2.jpg);
+  }
+
+  @media (min-width: $tablet-size) {
+    background-image: url(../images/bg-image/tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/bg-image/tablet@2.jpg);
+  }
+
+  @media (min-width: $detskop-size) {
+    background-image: url(../images/bg-image/detskop.jpg);
+    height: 37.5rem;
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/bg-image/detskop@2.jpg);
+  }
+}
+@media (max-width: $mobile-size) {
+  .title-section__bgd-image {
+    padding: 0;
+  }
 }
 .title-section__title {
   font-size: 44px;

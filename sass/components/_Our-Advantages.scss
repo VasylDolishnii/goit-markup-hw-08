@@ -38,4 +38,14 @@
     line-height: 1.71;
     color: var(--links_and_subtitle_white-grey);
   }
+  @media (max-width: $mobile-size) {
+    &__list > p {
+      width: 100%;
+    }
+  }
+  @media (max-width: $mobile-size) {
+    &__ul {
+      text-align: center;
+    }
+  }
 }

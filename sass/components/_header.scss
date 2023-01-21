@@ -55,12 +55,12 @@
       padding: opx;
     }
   }
-  @media (max-width: $mobile-size) {
+  @media (max-width: $tablet-size) {
     &_list {
       display: none;
     }
   }
-  @media (max-width: $mobile-size) {
+  @media (max-width: $tablet-size) {
     &__contact {
       display: none;
     }
