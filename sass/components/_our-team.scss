@@ -43,31 +43,3 @@
     }
   }
 }
-.our-team__worker-1 {
-  background-image: url(../images/worker_1/mb@1x.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  margin: 0 auto;
-
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/worker_1/mb@2x.jpg);
-  }
-
-  @media (min-width: $tablet-size) {
-    background-image: url(../images/worker_1/tb@1x.jpg);
-  }
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/worker_1/tb@2x.jpg);
-  }
-
-  @media (min-width: $desktop-size) {
-    background-image: url(../images/worker_1/dt@1x.jpg);
-    height: 37.5rem;
-  }
-
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/worker_1/dt@2x.jpg);
-  }
-}
