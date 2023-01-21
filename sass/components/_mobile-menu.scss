@@ -15,7 +15,7 @@
   top: 16px;
   right: 16px;
 
-  @media (min-width: $tablet-size) {
+  @media (min-width: $mobile-size) {
     display: none;
   }
 }
