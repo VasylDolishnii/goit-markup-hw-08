@@ -51,6 +51,11 @@
   margin: 0 auto;
   position: relative;
 }
+@media (max-width: 480px) {
+  .recaptcha {
+    text-align: center;
+  }
+}
 .statute {
   color: var(--link_and_button_color);
   text-decoration: underline;
