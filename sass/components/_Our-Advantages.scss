@@ -38,7 +38,7 @@
     line-height: 1.71;
     color: var(--links_and_subtitle_white-grey);
   }
-  @media (max-width: $mobile-size) {
+  @media (max-width: 570px) {
     &__list > p {
       width: 100%;
     }
