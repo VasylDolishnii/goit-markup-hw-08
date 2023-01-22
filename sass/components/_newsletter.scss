@@ -69,7 +69,13 @@
       width: 100%;
     }
     &_svg {
-      right: 31px;
+      right: 28px;
+    }
+  }
+  @media (max-width: 768px) {
+    &__input {
+      margin-right: 0;
+      width: 100%;
     }
   }
   @media (max-width: $tablet-size) {
