@@ -36,6 +36,17 @@
     right: 28px;
     cursor: pointer;
   }
+  @media (max-width: 1199px) {
+    &__part {
+      flex-direction: column;
+    }
+    &-btn {
+      margin-top: 20px;
+    }
+    &_svg {
+      right: 113px;
+    }
+  }
   @media (max-width: $tablet-size) {
     &-btn {
       margin-top: 20px;
@@ -50,6 +61,15 @@
     &__input {
       margin-right: 0;
       width: 100%;
+    }
+  }
+  @media (max-width: 870px) {
+    &__input {
+      margin-right: 0;
+      width: 100%;
+    }
+    &_svg {
+      right: 31px;
     }
   }
   @media (max-width: $tablet-size) {
